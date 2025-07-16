@@ -1,0 +1,87 @@
+h1{
+    font-size: 50px;
+}
+body{
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+.color-buttons{
+    padding: 1px;
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.container{
+    background-color: grey;
+    height: 400px;
+    width: 500px;
+    margin-left: 32%;    
+    border-radius: 28px;
+}
+#upperCase{    
+    height: 50px;
+    width: 100px;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+}
+#lowerCase{    
+    height: 50px;
+    width: 100px;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+
+}
+#orange{
+    height: 50px;
+    width: 100px;
+    background-color: orangered;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+}
+#blue{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+}
+#green{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+}
+button{
+    cursor: pointer;
+}
+#bold{   
+    height: 50px;
+    width: 100px;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+}
+#italic{
+    height: 50px;
+    width: 100px;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+}
+#underline{    
+    height: 50px;
+    width: 100px;
+    border-radius: 28px;
+    border: none;
+    margin: 10px;
+}

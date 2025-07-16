@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleSheet" href="style.css">
+</head>
+<body>
+    <h1>Change the text as you want</h1>
+    <h2 id="text">Text</h2>
+
+    <div class="container">
+
+        <div class="case-buttons">
+            <p>Change case</p>
+            <button id="upperCase" onclick="changeCase('upperCase')">Upper Case</button>
+            <button id="lowerCase" onclick="changeCase('lowerCase')">Lower Case</button>
+        </div>
+        <div class="color-buttons">
+            <p>change Color</p>
+            <button id="orange" onclick="changeColor('orange')">Orange</button>
+            <button id="blue" onclick="changeColor('blue')">Blue</button>
+            <button id="green" onclick="changeColor('green')">Green</button>
+        </div>
+
+        <div class="text-style-buttons">
+            <p>Change Style</p>
+            <button id="bold" onclick="changeStyle('bold')">Bold</button>
+            <button id="italic" onclick="changeStyle('italic')">Italic</button>
+            <button id="underline" onclick="changeStyle('underline')">Underline</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
